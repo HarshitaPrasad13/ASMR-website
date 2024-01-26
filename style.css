@@ -11,8 +11,8 @@ h1{
 }
 
 .iconasmr{
-    width:100px;
-    height: 100px;
+    width:120px;
+    height: 120px;
 
 }
 .listel li{
@@ -22,7 +22,7 @@ h1{
 }
 .listel li a{
     color: rgb(237, 146, 141);
-    size: 15px;
+    size: 20px;
 }
 .nbar{
     justify-content: space-between;
