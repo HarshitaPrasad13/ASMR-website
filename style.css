@@ -1,0 +1,39 @@
+body {
+    background-image: url('cozy studyroom.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+h1{
+    color:white;
+    text-align:center;
+    font-size: 70px;
+
+}
+
+.iconasmr{
+    width:100px;
+    height: 100px;
+
+}
+.listel li{
+    display: inline-block;
+    list-style:none;
+    margin: 15px;
+}
+.listel li a{
+    color: coral;
+    size: 15px;
+}
+.nbar{
+    justify-content: space-between;
+    display: flex;
+}
+p{
+    font-size: 20px;
+    color: rgb(234, 234, 178);
+}
+.asmrlink a{
+    color: #b1aeae;
+    font-size: 20px;
+    text-align: center;
+}
