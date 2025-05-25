@@ -64,17 +64,17 @@ p{
 
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Try to fit as many 300px-wide columns as possible.Each column takes up full available space (1fr) if needed.Automatically adjusts for responsiveness. */
-  gap: 20px; /* space between iframes */
-  padding: 20px; /*adds space around the whole grid section.*/
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px;
+  padding: 20px;
 }
 
 .video-box {
-  border: 3px solid white; /* white border */
-  padding: 10px; /* space between the iframe and the border.*/
+  border: 3px solid white;
+  padding: 10px;
   border-radius: 8px;
-  background-color: #000; /* dark background gives contrast to white border */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /*  soft shadow */
+  background-color: #000; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
 }
 
 .video-box iframe {
