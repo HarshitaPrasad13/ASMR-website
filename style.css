@@ -1,18 +1,26 @@
 body {
-    background-image: url('cozy-lively-home.jpg');
+    background-color: rgb(118, 86,70);
+    /*background-image: url('cozy-lively-home.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     }
 h1{
     color:white;
+
     text-align:center;
     font-size: 70px;
 
 }
-
+.top-section {
+  background: url('topsection.png') center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
 .iconasmr{
-    width:120px;
-    height: 120px;
+    width:100px;
+    height: 100px;
 
 }
 .listel li{
@@ -21,19 +29,65 @@ h1{
     margin: 15px;
 }
 .listel li a{
-    color: rgb(237, 146, 141);
-    size: 20px;
+    color: rgb(28, 20, 59);
+    size: 15px;
 }
 .nbar{
     justify-content: space-between;
     display: flex;
+    padding: 15px 30px;
+    z-index: 10;
+    background-color: transparent;
 }
 p{
     font-size: 20px;
     color: rgb(234, 234, 178);
 }
-.asmrlink a{
-    color: #b1aeae;
-    font-size: 20px;
+
+.hero {
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Try to fit as many 300px-wide columns as possible.Each column takes up full available space (1fr) if needed.Automatically adjusts for responsiveness. */
+  gap: 20px; /* space between iframes */
+  padding: 20px; /*adds space around the whole grid section.*/
+}
+
+.video-box {
+  border: 3px solid white; /* white border */
+  padding: 10px; /* space between the iframe and the border.*/
+  border-radius: 8px;
+  background-color: #000; /* dark background gives contrast to white border */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /*  soft shadow */
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 200px; 
+  border: none;
+  display: block;
+}
+
+.vid-caption{
+    color: white;
+    font-size: 17px;
     text-align: center;
+    margin-top: 10px;
+    
 }
